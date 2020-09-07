@@ -1,0 +1,31 @@
+#cartholder{
+	background: #d968c3;
+	padding: 10px;
+	width: 50%;
+}
+.cart-items{
+	display: block;
+}
+.cart-row{
+	padding: 10px;
+	display: flex;
+	border-bottom:2px solid #d968c3;
+}
+.cart-row span{
+	padding-right:  20%;
+	margin-bottom: 10px;
+
+}
+.btnremove{
+	background: darkred;
+	padding: 5px;
+	border-radius: 5px;
+
+}
+
+
+/* small screens*/
+
+#cartholder{
+	width: 98%;
+}
