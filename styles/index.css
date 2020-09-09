@@ -32,6 +32,16 @@ border-bottom-color: green;
 #checkmenubar , #check{
 	display: none;
 }
+/* the cart on nav bar*/
+.mycart{
+	background-color: white;
+	color: red;
+	margin-bottom:  10px;
+	padding-top:  10px;
+	border-radius: 50%;
+	
+	
+}
 
 section{
 	background: #FFF;

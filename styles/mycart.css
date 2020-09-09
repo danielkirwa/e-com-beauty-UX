@@ -25,7 +25,8 @@
 
 
 /* small screens*/
-
+@media(max-width: 800px){
 #cartholder{
-	width: 98%;
+	width: 95%;
+}
 }
