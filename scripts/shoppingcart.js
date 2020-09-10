@@ -187,6 +187,8 @@ function cartItemDelete(product) {
 	// body...
 
 let btndelete = document.querySelector('.basketButton');
+
+if(btndelete != null){
   
   btndelete.addEventListener('click', ()=>{
 
@@ -195,6 +197,7 @@ let btndelete = document.querySelector('.basketButton');
   	location.reload();
 
   });
+  }
 
 }
 
