@@ -1,4 +1,4 @@
-let carts = document.querySelectorAll('.add-cart');
+  let carts = document.querySelectorAll('.add-cart');
 
 // get item details
 let products =[
@@ -182,8 +182,23 @@ function displaycart() {
 	}
 }
 
+// clear localstorage on purchase
+function cartItemDelete(product) {
+	// body...
 
+let btndelete = document.querySelector('.basketButton');
+  
+  btndelete.addEventListener('click', ()=>{
+
+  	alert("Thanks for Purchase");
+  	localStorage.clear();
+  	location.reload();
+
+  });
+
+}
 
 // hold cart number
 onloadcartNumber();
 displaycart();
+cartItemDelete();
