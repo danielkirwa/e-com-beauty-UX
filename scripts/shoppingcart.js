@@ -47,7 +47,6 @@ for(let i = 0;i < carts.length; i++)
 		//console.log("add to cart");
 		cartNumber(products[i]);
 		totalCost(products[i]);
-		hiddenCart.style.display = "block";
 	})
 }
 
@@ -200,6 +199,8 @@ if(btndelete != null){
   }
 
 }
+
+
 
 // hold cart number
 onloadcartNumber();
