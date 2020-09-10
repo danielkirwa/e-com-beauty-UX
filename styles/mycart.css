@@ -1,32 +1,108 @@
-#cartholder{
-	background: #d968c3;
-	padding: 10px;
-	width: 50%;
+/* CART DESIGN*/
+
+
+.products-container {
+	max-width: 650px;
+	justify-content: space-around;
+	margin: 0 auto;
+	margin-top: 50px;
 }
-.cart-items{
-	display: block;
-}
-.cart-row{
-	padding: 10px;
+
+.products-container {
 	display: flex;
-	border-bottom:2px solid #d968c3;
-}
-.cart-row span{
-	padding-right:  20%;
-	margin-bottom: 10px;
-
-}
-.btnremove{
-	background: darkred;
-	padding: 5px;
-	border-radius: 5px;
-
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: lightpink;
 }
 
+.products{
+	max-width: 650px;
+	justify-content: space-around;
+	margin: 0 auto;
+	
+}
 
-/* small screens*/
-@media(max-width: 800px){
-#cartholder{
-	width: 95%;
+ .products{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background: lightpink;
 }
+
+.product-header{
+	width: 100%;
+	max-width: 650px;
+	display: flex;
+	justify-content:  flex-start;
+	border-bottom :4px solid #d10e93;
+	margin: 0 auto;
 }
+
+.product-title{
+	width: 45%;
+	display: flex;
+	align-items: center;
+	border-bottom :2px solid pink;
+
+}
+
+.price{
+	width: 15%;
+	display: flex;
+	align-items: center;
+	border-bottom :2px solid pink;
+}
+.quantity{
+	width: 20%;
+	display: flex;
+	align-items: center;
+	border-bottom :2px solid pink;
+}
+
+.total{
+	width: 20%;
+	display: flex;
+	align-items: center;
+	border-bottom :2px solid pink;
+}
+.product{
+	width: 45%;
+	display: flex;
+	padding: 10px 0;
+	justify-content:  space-around;
+	align-items: center;
+	border-bottom :2px solid pink;
+
+}
+
+.basketTotalContainer{
+	display: flex;
+	justify-content:  flex-end;
+	width: 100%;
+	padding-right: 10%;
+}
+.basketTotalTitle{
+	width: 30%;
+}
+.basketTuotal{
+	width: 10px;
+	margin-right: 10px;
+}
+.basketButtonPurchase{
+	display: flex;
+	justify-content:  flex-end;
+	width: 100%;
+	padding-right: 10%;
+}
+.basketButton{
+	width: 50%;
+	background: lightgreen;
+	font-size: 24px;
+}
+
+
+

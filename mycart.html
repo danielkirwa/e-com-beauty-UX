@@ -23,7 +23,7 @@
 		<header>Beauty</header>
 		<br>
 		<center>
-			<a href="mycart"  class="active"><img src="assets/icons/cart.png" width="25px">My Cart</a>
+			<a href="mycart"  class="active"><img src="assets/icons/cart.png" width="25px"><span class="mycart">0</span>My Cart</a>
 			<a href="index.html">Body Creams</a>
 			<a href="#">Face Makeup</a>
 			<a href="#">Hair Dresser</a>
@@ -33,12 +33,18 @@
 	</div>
 
 <section>
-<div id="container">
-	<center>
-	<div id="cartholder">
-		<h1>your cart</h1>
+<div id="main-container">
+<div class="products-container">
+	<div class="product-header">
+		<h5 class="product-title">PRODUCT</h5>
+		<h5 class="price">PRICE</h5>
+		<h5 class="quantity">QUANTITY</h5>
+		<h5 class="total">TOTAL</h5>
 	</div>
-</center>
+	<div class="products">
+		
+	</div>
+</div>
 </div>
 <div id="footerholder" style="background-image: url(assets/background5.png);">
 	<div id="footerlinks">
@@ -90,5 +96,7 @@
 	</p>
 </div>
 </section>
+
+<script type="text/javascript" src="scripts/shoppingcart.js"></script>
 </body>
 </html>

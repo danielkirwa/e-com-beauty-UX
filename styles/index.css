@@ -176,7 +176,7 @@ padding: 10px;
    box-shadow: 0 0 10px black;
 	width: 30%;
 	background-image: url(images/bacground1.png);
-	background-size: 100%; 
+	background-size: cover; 
 background-position: center;
 margin-left: 10px;
 background-repeat:round; background-position: left top;padding: 10px;
