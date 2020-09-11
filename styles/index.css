@@ -165,62 +165,7 @@ background-repeat:round; background-position: left top;padding: 10px;
 
 
 /* card design */
-#itemcardholder{
-	
-width: 99%;
-display: flex;
-padding: 10px;
-}
-#itemcard{
-	display: flex;
-   box-shadow: 0 0 10px black;
-	width: 30%;
-	background-image: url(images/bacground1.png);
-	background-size: cover; 
-background-position: center;
-margin-left: 10px;
-background-repeat:round; background-position: left top;padding: 10px;
-}
-
-#itemimage{
-	width: 50%;
-}
-#itemdiscription{
-	font-size: 2vw;
-	width: 50%;
-}
-#itemdiscription button{
-	font-size:2vw;
-	width: 90%;
-	border-radius: 5px;
-	background: green;
-}
-
 @media (max-width: 650px){
-	#itemcardholder{
-width: 98%;
-display: block;
-padding: 0px;
-}
-#itemcard{
-	display: flex;
-	width: 95%;
-	background-image: url(images/bacground1.png);
-	background-size: 100%; 
-background-position: center;
-margin-left: 0px;
-background-repeat:round; background-position: left top;padding: 10px;
-}
-#itemdiscription{
-	font-size: 22px;
-	width: 50%;
-}
-#itemdiscription button{
-	font-size: 22px;
-	width: 90%;
-	border-radius: 5px;
-	background: green;
-}
 #footerholder{
 	width: 96%;
 	padding: .5%

@@ -40,6 +40,7 @@
 	justify-content:  flex-start;
 	border-bottom :4px solid #d10e93;
 	margin: 0 auto;
+
 }
 
 .product-title{
@@ -47,14 +48,16 @@
 	display: flex;
 	align-items: center;
 	border-bottom :2px solid pink;
+	padding-left: 15px;
 
 }
 
 .price{
-	width: 15%;
+	width: 13%;
 	display: flex;
 	align-items: center;
 	border-bottom :2px solid pink;
+	border-right :2px solid pink;
 }
 .quantity{
 	width: 20%;
@@ -70,12 +73,13 @@
 	border-bottom :2px solid pink;
 }
 .product{
-	width: 45%;
+	width: 43%;
 	display: flex;
 	padding: 10px 0;
 	justify-content:  space-around;
 	align-items: center;
 	border-bottom :2px solid pink;
+	border-right :2px solid pink;
 
 }
 
